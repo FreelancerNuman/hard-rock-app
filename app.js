@@ -10,7 +10,6 @@ const searchSong = async () => {
     console.log(error);
   }
 };
-
 const displaySong = (songs) => {
   const songContainer = document.getElementById("song-container");
   songContainer.innerHTML = "";
